@@ -19,9 +19,9 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
-global.ownernomer = 'Your Number'
+global.owner = ['+94702654417']
+global.premium = ['+94702654417']
+global.ownernomer = '+94702654417'
 global.ownername = '🐦Star Boy Nexus'
 global.botname = 'Gojo-Satoru'
 global.footer = '©NexusNwInc.'
@@ -29,7 +29,7 @@ global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
 global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
 global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
+global.packname = 'hawlepodda'
 global.author = '🐦Star Boy Nexus'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
@@ -64,7 +64,7 @@ global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutpu
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-let file = require.resolve(__filename)
+let file = require.resolve(hawlepodda)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
 	console.log(chalk.redBright(`Update'${__filename}'`))
